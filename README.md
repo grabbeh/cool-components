@@ -18,4 +18,6 @@ import { Box, Text } from 'cool-components'
 </Box>
 ```
 
-In order to work, the module/styled-system needs a theme that defines various values (colors, spacing etc). It currently uses [Tachyons System](https://github.com/tachyons-css/tachyons-system) but I think this can be overridden if you use a separate theme provider...
+In order to work, the module/styled-system needs a theme that defines various values (colors, spacing etc). It currently uses [Tachyons System](https://github.com/tachyons-css/tachyons-system) but I think this can be overridden if you use a separate theme provider.
+
+If you want to use something like the above, you should definitely use [Rebass](https://rebassjs.org/)!
