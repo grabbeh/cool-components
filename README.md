@@ -8,15 +8,14 @@ After a few false starts (as is to be expected when you would rather copy and pa
 
 Here's an example of what you can do, with the props passed to the component acting to style it accordingly, without having to worry about coding the specific CSS (as styled-system seamlessly takes care of all that in the background):
 
-```
-import { Box, Text } from 'cool-components'
+    import { Box, Text } from 'cool-components'
 
-<Box bg="blue" p={3} m={3}>
-    <Text fontWeight="bold">
-        Hello world
-    </Text>
-</Box>
-```
+    <Box bg="blue" p={3} m={3}>
+        <Text fontWeight="bold">
+            Hello world
+        </Text>
+    </Box>
+
 
 In order to work, the module/styled-system needs a theme that defines various values (colors, spacing etc). It currently uses [Tachyons System](https://github.com/tachyons-css/tachyons-system) but I think this can be overridden if you use a separate theme provider.
 
